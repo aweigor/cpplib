@@ -1,0 +1,6 @@
+#!/bin/bash
+# compile
+g++ $1 -o executable
+# execute
+./executable
+rm executable
