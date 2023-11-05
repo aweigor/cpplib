@@ -26,9 +26,10 @@ double countEvenElementsAverage(int* array, int n)
   
   int i = 1;
 
-  while (i * 2 < n) {
-    
-    average = ( average + array[ i++ * 2 ] );
+  while (i * 2 < n) 
+  {
+
+    average += array[ i++ * 2 ];
   
   };
 
