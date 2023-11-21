@@ -1,10 +1,11 @@
-#include <ostream>
+# include <ostream>
 # include <string>
 # include <iostream>
-#include <iomanip>
+# include <iomanip>
 
 /** Максимальныая длина считываемой строки */
 const int MAX_ROW_SIZE = 32;
+
 /** Макс количество символов результата */
 const int OUT_LIMIT = 3;
 
@@ -13,6 +14,7 @@ char * calcOccurrence (char *dest, char *src, int limit);
 
 /** Функция меняет местами элементы, используя дополнительную переменную */
 void swap (char* array, int one, int two);
+
 
 int main (void) {
 
